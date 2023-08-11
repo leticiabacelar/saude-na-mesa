@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    height: 100px;
+    background-color: #101026;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+section a{
+    color: #f5f5f5;
+}
+
+#estilo_logo_home{
+    width: 130px;
+    text-align: center;
+    color: black;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: green;
+}
+
+#estilo1_cabecalho{
+    font-size: 20px;
+    width: 250px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+#caixa_logo{
+display: flex;
+align-items:center;
+text-align:left;
+height: 50px;
+width: 200px
+}
+#img_site{
+    text-align: center;
+}
+#estilo_tipo_fonte{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1380px;
+    display: flex; 
+    justify-content: center;
+    gap: 10px;
+}
+#estilo_links_nav{
+    width: 130px;
+    text-align: center;
+    color: black;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: green;
+}
+section{
+    width: 130px;
+    text-align: center;
+    color: black;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: green;
+}
+#caixa_instagram{
+height: 36px;
+width: 36px;
+}
+#centralizar{
+    text-align: center;
+}
+#estilo_rodape{
+    background-color:#9BABB8;
+    
+}
+
+#titulo{
+    text-align: center;
+}
+
+main{
+    background: #101026;
+}
+
+main h1{
+    color: #f5f5f5;
+}
+main p{
+    color: #f5f5f5;
+}
+main h3{
+    color: #f5f5f5;
+}
+
+#cor{
+    background-color:  #101026;
+}
+
+#manga{
+    text-align: center;
+    flex: row;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+#tamanho_letra{
+    font-size: 20px;
+}
+
+#manga1{
+    text-align: center;
+    display: flex;
+    flex: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+#receitas{
+    height: 400px;
+    padding: 50px;
+}
+
+#exercicios{
+    text-align: center;
+    display: flex;
+    flex:row;
+    justify-content: center;
+    gap: 100px;
+}
+#exer{
+    height: 700px;
+    padding: 50px;
+}
+
+#sobre{
+    text-align: center;
+    display: flex;
+    flex: row;
+    justify-content:center;
+    gap: 50px;
+}
+sob{
+    height: 600px;
+    padding: 50px;
+}
+
+#motivos{
+    background-color: #101026;
+    color: #f5f5f5;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer p{
+    color: #f5f5f5;
+}
+
+footer h1{
+    color: #f5f5f5;
+}
+
+footer h3{
+    color: #f5f5f5;
+}
+footer a{
+    color: #f5f5f5;
+}
+
+footer {
+    width: 100%;
+    color: var(--color-neutral-40);
+    background-color: #101026;
+    text-align: center;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#footer_content {
+    background-color: var(--color-neutral-10);
+    display: flex;
+    padding: 3rem 3.5rem;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+} 
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;    
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+
+#footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer_subscribe p {
+    color: #f5f5f5;
+}
+
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+#input_group input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input_group button {
+    background-color: #7f37c9;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#input_group button:hover {
+    opacity: 0.8;
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+}

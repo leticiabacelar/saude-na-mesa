@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale conosco</title>
+    <link rel="stylesheet" href="fale.style.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="estilo_logo_home">
+            <a href="index.html">HOME</a>
+        </div>
+        
+        <nav>
+            <a id="estilo_links_nav" href="Sobre.html">Sobre</a>
+            <a id="estilo_links_nav" href="Cadastre-se.html">Cadastre-se</a>
+            <a id="estilo_links_nav" href="Fale Conosco.html">Fale Conosco</a>
+            <a id="estilo_links_nav" href="motivos.html">Motivos</a>
+            <a id="estilo_links_nav" href="https://www.receiteria.com.br/receitas-saudaveis-rapidas/">Receitas</a>
+        </nav> 
+
+        <section>
+            <h3>Rede Social:</h3> 
+            <a href="https://www.instagram.com/leh_nevez/">Instagram</a>
+        </section>
+    </header>
+   
+    <main>
+        <section id="formulario">
+            <h2>Fale Conosco</h2>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <label>Nome</label>
+                <input type="text"; name="name" placeholder="Digite seu primeiro Nome" required>
+
+                <label>Sobrenome</label>
+                <input type="text"; name="name" placeholder="Digite seu Sobrenome" required>
+
+                <label for="email">E-mail</label>
+                <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+
+                <label for="number">Celular</label>
+                <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+
+                <label for="password">Senha</label>
+                <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+
+                <label for="confirmPassword">Confirme sua Senha</label>
+                <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
+
+                <label>Mensagem</label>
+                <textarea name="Mensagem"; cols="30"; rows="10" placeholder="Digite Sua Mensagem"></textarea>
+
+                <button type="submit">Enviar</button>
+
+                <input type="hidden" name="accessKey" value=" bbf1a050-28d7-4c31-a27f-5b6e96524b73">
+                <input type="hidden" name="redirectTo" value="file:///C:/Users/Senai.CEPEAS21104021/Downloads/Leticia/index.html">
+            </form>
+        </section>
+    </main>
+    
+    <!--RODAPÉ-->
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>Logo</h1>
+                <p>"Não há nenhum alimento tão rico em nutrientes <br>como aquele que cresce dentro de um jardim.”</p>
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            
+
+            <div id="footer_subscribe">
+                <h3>Inscreva-se</h3>
+                <p>
+                    Digite seu e-mail para ser notificado sobre nossas novidades!
+                </p>
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            <a id="cor">criado por Letícia neves</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
